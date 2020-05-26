@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<IEnumerable<MVCLaboratorio.Models.Tema>>" %>
+﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<IEnumerable<MVCLaboratorio.Models.Video>>" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -7,31 +7,31 @@
     <title>Index</title>
 </head>
 <body>
-   <h1>TABLA DE TEMAS </h1> <table>
+    <table>
         <tr>
             <th></th>
             <th>
-                IdTema
+                IdVideo
             </th>
             <th>
                 Nombre
             </th>
-        </tr>
-
+           
     <% foreach (var item in Model) { %>
     
         <tr>
             <td>
-                <%: Html.ActionLink("Editar", "EditTema", new {  id=item.IdTema  }) %> |
-                <%: Html.ActionLink("Detalles", "DetailsTema", new {  id=item.IdTema  })%> |
-                <%: Html.ActionLink("Eliminar", "DeleteTema", new {  id=item.IdTema  })%>
+                <%: Html.ActionLink("Editar", "EditarVideo", new {  id=item.IdVideo  }) %> |
+                <%: Html.ActionLink("Detalles", "DetallesVideo", new {  id=item.IdVideo  })%> |
+                <%: Html.ActionLink("Eliminar", "BorrarVideo", new {  id=item.IdVideo  })%>
             </td>
             <td>
-                <%: item.IdTema %>
+                <%: item.IdVideo %>
             </td>
             <td>
                 <%: item.Nombre %>
             </td>
+            
         </tr>
     
     <% } %>
@@ -39,12 +39,12 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Agregar Tema Nuevo", "CreateTema") %>
+        <%: Html.ActionLink("Agregar un video Nuevo", "AgregarVideo") %>
     </p>
-   <p>
-       <a href="../Home/Index">Regresar</a>
-    </p>
-  
+    <p>
+        <a href="../Home/Index">Regresar</a>
+        </p>
+
 </body>
 </html>
 

@@ -5,6 +5,7 @@ using System.Web;
 using System.Data;
 using MVCLaboratorio.Utilerias;
 using System.Data.SqlClient;
+using MVCLaboratorio.Models;
 
 namespace MVCLaboratorio.Models
 {
