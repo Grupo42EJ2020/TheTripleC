@@ -7,7 +7,8 @@
     <title>Index</title>
 </head>
 <body>
-   <h1>TABLA DE TEMAS </h1> <table>
+    <h1>TABLA DE TEMAS</h1>
+    <table>
         <tr>
             <th></th>
             <th>
@@ -22,9 +23,9 @@
     
         <tr>
             <td>
-                <%: Html.ActionLink("Editar", "EditTema", new {  id=item.IdTema  }) %> |
-                <%: Html.ActionLink("Detalles", "DetailsTema", new {  id=item.IdTema  })%> |
-                <%: Html.ActionLink("Eliminar", "DeleteTema", new {  id=item.IdTema  })%>
+                <%: Html.ActionLink("Editar", "EditarTema", new {  id=item.IdTema }) %> |
+                <%: Html.ActionLink("Detalles", "DetallesTema", new {  id=item.IdTema  })%> |
+                <%: Html.ActionLink("Eliminar", "BorrarTema", new {  id=item.IdTema  })%>
             </td>
             <td>
                 <%: item.IdTema %>
@@ -39,12 +40,12 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Agregar Tema Nuevo", "CreateTema") %>
+        <%: Html.ActionLink("Agregar un nuevo Tema", "AgregarTema") %>
     </p>
-   <p>
-       <a href="../Home/Index">Regresar</a>
+    <p>
+        <a href="../Home/Index">Regresar</a>
     </p>
-  
+
 </body>
 </html>
 
