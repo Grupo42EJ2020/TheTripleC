@@ -72,10 +72,20 @@
     <Compile Include="Controllers\CursoController.cs" />
 
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TemaController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+    <Compile Include="Models\ITema.cs" />
+    <Compile Include="Models\RepositorioTema.cs" />
+    <Compile Include="Models\Tema.cs" />
+=======
+<<<<<<< HEAD
+>>>>>>> 0faea42f8af49bd04418e232b4bbf0110a521dae
     <Compile Include="Models\Empleado.cs" />
     <Compile Include="Models\IEmpleado.cs" />
     <Compile Include="Models\RepositorioEmpleado.cs" />
@@ -83,7 +93,12 @@
     <Compile Include="Models\Curso.cs" />
     <Compile Include="Models\ICurso.cs" />
     <Compile Include="Models\RepositorioCurso.cs" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7225769e5cb3bdc382be9f42bdfc155afc589259
+>>>>>>> 53dce1780f5b8074564b34af07997edffe292f9d
+>>>>>>> 0faea42f8af49bd04418e232b4bbf0110a521dae
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilerias\BaseHelper.cs" />
   </ItemGroup>
@@ -104,6 +119,11 @@
     <Content Include="Views\Curso\watchCursos.aspx" />
 
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Tema\CreateTema.aspx" />
+    <Content Include="Views\Tema\DeleteTema.aspx" />
+    <Content Include="Views\Tema\DetailsTema.aspx" />
+    <Content Include="Views\Tema\EditTema.aspx" />
+    <Content Include="Views\Tema\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
