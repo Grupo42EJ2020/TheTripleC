@@ -70,5 +70,6 @@ namespace MVCLaboratorio.Controllers
             return RedirectToAction("VerEmpleados");
         }
         //********************************************************
+      
     }
 }

@@ -42,15 +42,14 @@
     <p>
         <%: Html.ActionLink("Agregar un nuevo Tema", "AgregarTema") %>
     </p>
-<<<<<<< HEAD
+
 
     <a href="../Curso_Tema/AgregarCurso_Tema">Añadir un Tema a Curso</a>
-=======
+
     <p>
         <a href="../Home/Index">Regresar</a>
     </p>
 
->>>>>>> 1ab7773a89853388ed120a3a0d450df3c4f53756
 </body>
 </html>
 
