@@ -12,55 +12,54 @@ namespace MVCLaboratorio.Controllers
 {
     public class TemaController : Controller
     {
+       
         RepositorioTema repoTema = new RepositorioTema();
-
+    
         public ActionResult Index()
         {
-           return View(repoTema.obtenerTemas());
+          return View(repoTema.obtenerTemas());
         }
 
-        public ActionResult DeleteTema(int IdTema)
+        public ActionResult BorrarTema(int id)
         {
-            return View(repoTema.obtenerTema(IdTema));
+            return View(repoTema.obtenerTema(id));
         }
-
         [HttpPost]
-        public ActionResult DeleteTema(int IdTema, FormCollection datos) 
+        public ActionResult BorrarTema(int id, FormCollection datos)
         {
-            repoTema.eliminarTema(IdTema);
+            repoTema.eliminarTema(id);
+
             return RedirectToAction("Index");
         }
 
-        public ActionResult DetailsTema(int IdTema)
+        public ActionResult DetallesTema(int id)
         {
-            return View(repoTema.obtenerTema(IdTema));
+            return View(repoTema.obtenerTema(id));
         }
-
-        public ActionResult EditTema(int IdTema)
+        
+        public ActionResult EditarTema(int id)
         {
-            return View(repoTema.obtenerTema(IdTema));
+            return View(repoTema.obtenerTema(id));
         }
-
         [HttpPost]
-        public ActionResult EditTema(int IdTema, Tema datosTema)
+        public ActionResult EditarTema(int id, Tema datosTema)
         {
-            datosTema.IdTema = IdTema; 
+            datosTema.IdTema = id;
             repoTema.actualizarTema(datosTema);
+
             return RedirectToAction("Index");
         }
-
-        public ActionResult CreateTema()
+       
+        public ActionResult AgregarTema()
         {
             return View();
         }
-
         [HttpPost]
-        public ActionResult CreateTema(Tema datosTema)
+        public ActionResult AgregarTema(Tema datos)
         {
-            repoTema.insertarTema(datosTema);
+            repoTema.insertarTema(datos);
             return RedirectToAction("Index");
         }
-
-
+        
     }
 }

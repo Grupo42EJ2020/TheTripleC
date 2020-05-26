@@ -15,9 +15,9 @@
     <br />
     <a href="/Curso/watchCursos">Ver Tabla Curso</a>
     <br />
-    <a href="Tema/Index">Ver Tabla Tema</a>
+    <a href="/Tema/Index">Ver Tabla Tema</a>
     <br />
-    <a href="#">Ver Tabla Video</a>
+    <a href="/Video/Index">Ver Tabla Video</a>
     <br />
     <a href="/Curso_Tema/VerCurso_Tema">Ver Tabla Curso_Tema</a>
     <br />
