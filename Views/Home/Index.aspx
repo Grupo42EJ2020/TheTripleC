@@ -19,7 +19,7 @@
     <br />
     <a href="#">Ver Tabla Video</a>
     <br />
-    <a href="#">Ver Tabla Curso_Tema</a>
+    <a href="/Curso_Tema/VerCurso_Tema">Ver Tabla Curso_Tema</a>
     <br />
     <a href="#">Ver Tabla Curso_Tema_Video</a>
 

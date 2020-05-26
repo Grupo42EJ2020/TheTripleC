@@ -43,7 +43,8 @@
         <br />
         <a href="Home/Index">Regresar</a>
     </p>
-  
+
+    <a href="../Curso_Tema/AgregarCurso_Tema">Añadir un Tema a Curso</a>
 </body>
 </html>
 

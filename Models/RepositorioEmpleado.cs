@@ -68,7 +68,7 @@ namespace MVCLaboratorio.Models
 
             BaseHelper.ejecutarConsulta("sp_Empleado_Agregar", CommandType.StoredProcedure, parametros);
         }
-
+        //****************************************************************************************************
         public void eliminarEmpleado(int idEmpleado)
         {
             List<SqlParameter> parametros = new List<SqlParameter>();
@@ -76,7 +76,7 @@ namespace MVCLaboratorio.Models
 
             BaseHelper.ejecutarSentencia("sp_Empleado_Borrar", CommandType.StoredProcedure, parametros);
         }
-
+        //*******************************************************************************************************
         public void actualizarEmpleado(Empleado datosEmpleado)
         {
             List<SqlParameter> parametros = new List<SqlParameter>();
