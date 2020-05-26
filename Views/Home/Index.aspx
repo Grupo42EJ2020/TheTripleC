@@ -11,9 +11,9 @@
     BIENVENIDOS A LA PAGINA DE NUESTRO PIA 👍
     </h1>
     <h3>Menu de opciones</h3>
-    <a href="#">Ver Tabla Empleado</a>
+    <a href="/Empleado/VerEmpleados">Ver Tabla Empleado</a>
     <br />
-    <a href="#">Ver Tabla Curso</a>
+    <a href="/Curso/watchCursos">Ver Tabla Curso</a>
     <br />
     <a href="Tema/Index">Ver Tabla Tema</a>
     <br />
