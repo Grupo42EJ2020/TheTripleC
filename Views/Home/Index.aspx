@@ -13,7 +13,7 @@
     <h3>Menu de opciones</h3>
     <a href="/Empleado/VerEmpleados">Ver Tabla Empleado</a>
     <br />
-    <a href="#">Ver Tabla Curso</a>
+    <a href="/Curso/watchCursos">Ver Tabla Curso</a>
     <br />
     <a href="#">Ver Tabla Tema</a>
     <br />
