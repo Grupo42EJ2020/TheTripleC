@@ -15,7 +15,7 @@
     <br />
     <a href="#">Ver Tabla Curso</a>
     <br />
-    <a href="#">Ver Tabla Tema</a>
+    <a href="Tema/Index">Ver Tabla Tema</a>
     <br />
     <a href="#">Ver Tabla Video</a>
     <br />
