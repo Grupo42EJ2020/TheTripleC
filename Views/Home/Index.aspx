@@ -48,7 +48,7 @@ a:link, a:visited{
     <%--<br />--%>
     <a href="/Curso_Tema/VerCurso_Tema">Ver Tabla Curso_Tema</a>
     <%--<br />--%>
-    <a href="#">Ver Tabla Curso_Tema_Video</a>
+    <a href="/Curso_Tema_Video/obtenerTodosCurso_Tema_Video">Ver Tabla Curso_Tema_Video</a>
     <%--<br />--%>
 
 
