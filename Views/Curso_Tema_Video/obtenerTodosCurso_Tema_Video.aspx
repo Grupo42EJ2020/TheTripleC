@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>obtenerTodosCurso_Tema_Video</title>
+    <link href="../../Content/styleTable.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <table>

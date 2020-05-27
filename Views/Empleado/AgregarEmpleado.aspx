@@ -11,7 +11,7 @@
         <%: Html.ValidationSummary(true) %>
 
         <fieldset>
-            <legend>Fields</legend>
+            <legend>Datos</legend>
             
       
             <div class="editor-label">
@@ -31,14 +31,14 @@
             </div>
             
             <p>
-                <input type="submit" value="Create" />
+                <input type="submit" value="Agregar" />
             </p>
         </fieldset>
 
     <% } %>
 
     <div>
-        <%: Html.ActionLink("Back to List", "VerEmpleados") %>
+        <%: Html.ActionLink("Regresar", "VerEmpleados") %>
     </div>
 
 </body>

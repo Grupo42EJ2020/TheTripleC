@@ -5,22 +5,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>EditarEmpleado</title>
+    <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/ParaTxBx.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <% using (Html.BeginForm()) {%>
         <%: Html.ValidationSummary(true) %>
         
         <fieldset>
-            <legend>Fields</legend>
-            
-            <div class="editor-label">
-                <%: Html.LabelFor(model => model.IdEmpleado) %>
-            </div>
-            <div class="editor-field">
-                <%: Html.TextBoxFor(model => model.IdEmpleado) %>
-                <%: Html.ValidationMessageFor(model => model.IdEmpleado) %>
-            </div>
-            
+            <legend>Datos</legend>
+
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Nombre) %>
             </div>
@@ -38,14 +32,14 @@
             </div>
             
             <p>
-                <input type="submit" value="Save" />
+                <input type="submit" value="Guardar" />
             </p>
         </fieldset>
 
     <% } %>
 
     <div>
-        <%: Html.ActionLink("Back to List", "VerEmpleados") %>
+        <%: Html.ActionLink("Regresar", "VerEmpleados") %>
     </div>
 
 </body>

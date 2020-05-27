@@ -5,10 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>DetallesCurso</title>
+    <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <fieldset>
-        <legend>Fields</legend>
+        <legend>Datos</legend>
         
         <div class="display-label">IdCurso</div>
         <div class="display-field"><%: Model.IdCurso %></div>

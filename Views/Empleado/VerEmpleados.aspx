@@ -5,18 +5,22 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>VerEmpleados</title>
+    <link href="../../Content/styleTable.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
+    <h1 style= color:#9B00B6 >Tabla de Empleados</h1>
     <table>
         <tr>
-            <th></th>
+        
+            <th><ul class="nav">Opciones</ul></th>
             <th>
-                IdEmpleado
+               <ul class="nav"> IdEmpleado</ul>
             </th>
             <th>
-                Nombre
+                <ul class="nav">Nombre</ul>
             </th>
-
+            
         </tr>
 
     <% foreach (var item in Model) { %>
@@ -41,7 +45,8 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Agregar Empleado", "AgregarEmpleado") %>
+     
+        <%:  Html.ActionLink("Agregar Empleado", "AgregarEmpleado") %>
     </p>
     <a href="../Home/Index">Ir a la lista de tablas</a>
 </body>

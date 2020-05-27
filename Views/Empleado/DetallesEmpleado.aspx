@@ -5,10 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>DetallesEmpleado</title>
+    <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <fieldset>
-        <legend>Fields</legend>
+        <legend>Datos</legend>
         
         <div class="display-label">IdEmpleado</div>
         <div class="display-field"><%: Model.IdEmpleado %></div>
@@ -21,8 +22,8 @@
         
     </fieldset>
     <p>
-        <%: Html.ActionLink("Edit", "EditarEmpleado", new {  id=Model.IdEmpleado }) %> |
-        <%: Html.ActionLink("Back to List", "VerEmpleados") %>
+        <%: Html.ActionLink("Editar", "EditarEmpleado", new {  id=Model.IdEmpleado }) %> |
+        <%: Html.ActionLink("Regresar", "VerEmpleados") %>
     </p>
 
 </body>

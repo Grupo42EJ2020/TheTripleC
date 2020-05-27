@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>VerCurso_Tema</title>
+    <link href="../../Content/styleTable.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <table>
@@ -13,12 +14,7 @@
             <th>
                 IdCT
             </th>
-            <th>
-                IdCurso
-            </th>
-            <th>
-                IdTema
-            </th>
+
         </tr>
 
     <% foreach (var item in Model) { %>
@@ -32,12 +28,7 @@
             <td>
                 <%: item.IdCT %>
             </td>
-            <td>
-                <%: item.IdCurso %>
-            </td>
-            <td>
-                <%: item.IdTema %>
-            </td>
+
         </tr>
     
     <% } %>

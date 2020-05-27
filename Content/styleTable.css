@@ -1,0 +1,42 @@
+﻿
+   html, body {
+    width: 100%;
+    height: 110%; 
+    color: black;
+    background: #1E1E1E;
+    font-family: Helvetica; 
+} 
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+.nav {
+  background-color: #6A6A6A; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+table{
+	background-color: #C6C6C6;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 15px;
+}
+
+
+tr:hover td{
+	background-color: #EBEBEB;
+	color: black;
+}  
+ 
+fieldset
+{
+    font-size: x-large;
+}

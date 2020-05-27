@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>BorrarVideo</title>
+    <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <h3>Are you sure you want to delete this?</h3>

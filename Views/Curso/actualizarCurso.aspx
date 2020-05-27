@@ -5,21 +5,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>actualizarCurso</title>
+    <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/ParaTxBx.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <% using (Html.BeginForm()) {%>
         <%: Html.ValidationSummary(true) %>
         
         <fieldset>
-            <legend>Fields</legend>
-            
-            <div class="editor-label">
-                <%: Html.LabelFor(model => model.IdCurso) %>
-            </div>
-            <div class="editor-field">
-                <%: Html.TextBoxFor(model => model.IdCurso) %>
-                <%: Html.ValidationMessageFor(model => model.IdCurso) %>
-            </div>
+            <legend>Datos</legend>
             
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Descripcion) %>

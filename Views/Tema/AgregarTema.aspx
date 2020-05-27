@@ -12,15 +12,7 @@
 
         <fieldset>
             <legend>Informacion del Tema</legend>
-            
-            <div class="editor-label">
-                <%: Html.LabelFor(model => model.IdTema) %>
-            </div>
-            <div class="editor-field">
-                <%: Html.TextBoxFor(model => model.IdTema) %>
-                <%: Html.ValidationMessageFor(model => model.IdTema) %>
-            </div>
-            
+   
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Nombre) %>
             </div>

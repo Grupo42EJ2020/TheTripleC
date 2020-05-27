@@ -5,11 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>BorrarCurso</title>
+    <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <h3>Seguro que quieres borrarlo¿?</h3>
     <fieldset>
-        <legend>Fields</legend>
+        <legend>Datos</legend>
         
         <div class="display-label">IdCurso</div>
         <div class="display-field"><%: Model.IdCurso %></div>
@@ -23,7 +24,7 @@
     </fieldset>
     <% using (Html.BeginForm()) { %>
         <p>
-		    <input type="submit" value="Delete" /> |
+		    <input type="submit" value="Borrar" /> |
 		    <%: Html.ActionLink("Regresar a los Cursos", "watchCursos")%>
         <%: Html.ActionLink("Regresar al menu", "Index")%>
         </p>

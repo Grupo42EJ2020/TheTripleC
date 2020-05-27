@@ -1,0 +1,15 @@
+﻿
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #9B00B6;
+  border-radius: 4px;
+  background-color:#DBDBDB
+}
+fieldset
+{
+    border: 2px solid #9B00B6;
+    }
+

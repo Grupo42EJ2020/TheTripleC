@@ -5,20 +5,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>watchCursos</title>
+    <link href="../../Content/styleTable.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <table>
-        <tr>
-            <th></th>
-            <th>
-                IdCurso
-            </th>
-            <th>
-                Descripcion
-            </th>
-            <th>
-                IdEmpleado
-            </th>
+     <tr>
+            <th><ul class="nav">Opciones</ul></th>
+            <th><ul class="nav">IdCurso</ul></th>
+            <th><ul class="nav">Descripcion</ul></th>
+            
         </tr>
 
     <% foreach (var item in Model) { %>
@@ -35,9 +30,7 @@
             <td>
                 <%: item.Descripcion %>
             </td>
-            <td>
-                <%: item.IdEmpleado %>
-            </td>
+
         </tr>
     
     <% } %>

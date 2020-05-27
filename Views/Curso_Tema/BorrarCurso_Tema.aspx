@@ -5,11 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>BorrarCurso_Tema</title>
+    <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <h3>Are you sure you want to delete this?</h3>
+    <h3>Esta seguro de eliminar los datos?</h3>
     <fieldset>
-        <legend>Fields</legend>
+        <legend>Datos</legend>
         
         <div class="display-label">IdCT</div>
         <div class="display-field"><%: Model.IdCT %></div>

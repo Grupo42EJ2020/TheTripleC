@@ -14,43 +14,50 @@ html, body {
     background: #1E1E1E;
     font-family: Helvetica; 
 }       
-a:link, a:visited{
+a:link, a:visited
+{
+    text-decoration: none;
     padding: 20px;
     font-family: Helvetica;
     text-transform: uppercase;
     padding-left: 10px;
     padding-right: 10px;
-
     font-size: 15px;
-    color: black;
-
+    color: white;
     text-align:center;
     display: inline-block;
     margin: 20px 10px 0 20px;
-    background-color: #d3dde0;
+    background-color: #9B00B6;
+   
   }
+  .center {
+  margin: auto;
+  width: 95%;
+  border: 3px solid #6A6A6A;
+  padding: 10px;
+}
     </style>
 </head>
 <body>
     <h1>
     BIENVENIDOS A LA PAGINA DE NUESTRO PIA 👍
     </h1>
+    <div class="center">
     <h3>Menu de opciones</h3>
     
+    <a href="/Empleado/VerEmpleados">Empleados</a>
+    <%--<br />--%>
+    <a href="/Curso/watchCursos">Cursos</a>
+    <%--<br />--%>
+    <a href="/Tema/Index">Temas</a>
+    <%--<br />--%>
+    <a href="/Video/Index">Videos</a>
+    <%--<br />--%>
+    <a href="/Curso_Tema/VerCurso_Tema">Cursos y sus Temas</a>
+    <%--<br />--%>
+    <a href="/Curso_Tema_Video/obtenerTodosCurso_Tema_Video">Cursos Temas y sus Videos</a>
+    <%--<br />--%>
 
-    <a href="/Empleado/VerEmpleados">Ver Tabla Empleado</a>
-    <%--<br />--%>
-    <a href="/Curso/watchCursos">Ver Tabla Curso</a>
-    <%--<br />--%>
-    <a href="/Tema/Index">Ver Tabla Tema</a>
-    <%--<br />--%>
-    <a href="/Video/Index">Ver Tabla Video</a>
-    <%--<br />--%>
-    <a href="/Curso_Tema/VerCurso_Tema">Ver Tabla Curso_Tema</a>
-    <%--<br />--%>
-    <a href="/Curso_Tema_Video/obtenerTodosCurso_Tema_Video">Ver Tabla Curso_Tema_Video</a>
-    <%--<br />--%>
-
-
+    </div>
 </body>
 </html>
