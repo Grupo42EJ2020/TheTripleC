@@ -8,6 +8,7 @@
     <link href="../../Content/styleTable.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<h1 style= color:#9B00B6 >Tabla de Cursos</h1>
     <table>
      <tr>
             <th><ul class="nav">Opciones</ul></th>
@@ -38,10 +39,12 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Agregar Cursos", "InsertarCurso") %>
-        <a href="/Home/Index">Regresar al menu</a>
+        <%: Html.ActionLink("Agregar Curso", "InsertarCurso") %>
+        
     </p>
-    <a href="../Curso_Tema/AgregarCurso_Tema">Añadir un Tema a Curso</a>
+       <p>
+        <a href="../Home/Index">Regresar</a>
+        </p>
 </body>
 </html>
 

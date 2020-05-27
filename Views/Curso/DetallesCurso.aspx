@@ -23,7 +23,7 @@
     </fieldset>
     <p>
         <%: Html.ActionLink("Editar", "actualizarCurso", new {  id=Model.IdCurso  }) %> |
-        <%: Html.ActionLink("Regresar a la lista de cursos", "watchCursos") %>
+       <%: Html.ActionLink("Regresar a Cursos", "watchCursos") %>
     </p>
 
 </body>

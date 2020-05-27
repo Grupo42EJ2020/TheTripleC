@@ -5,6 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>actualizarCurso_Tema_Video</title>
+    <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/ParaTxBx.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <% using (Html.BeginForm()) {%>
@@ -12,7 +14,6 @@
         
         <fieldset>
             <legend>Fields</legend>
-            
             
             
             <div class="editor-label">
@@ -42,7 +43,7 @@
     <div>
         <%: Html.ActionLink("Back to List", "Index") %>
     </div>
-
+   
 </body>
 </html>
 

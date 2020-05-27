@@ -6,6 +6,8 @@
 <head runat="server">
     <title>BorrarEmpleado</title>
     <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
+      
+
 </head>
 <body>
     <h3>Esta seguro de eliminar los datos?</h3>

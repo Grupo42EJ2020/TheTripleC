@@ -25,11 +25,12 @@
     <% using (Html.BeginForm()) { %>
         <p>
 		    <input type="submit" value="Borrar" /> |
-		    <%: Html.ActionLink("Regresar a los Cursos", "watchCursos")%>
-        <%: Html.ActionLink("Regresar al menu", "Index")%>
+<%: Html.ActionLink("Regresar a Cursos", "watchCursos") %>
         </p>
     <% } %>
-
+        <div>
+        
+    </div>
 </body>
 </html>
 

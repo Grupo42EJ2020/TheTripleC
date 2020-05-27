@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>obtenerUnCurso_Tema_Video</title>
+        <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <fieldset>
@@ -21,7 +22,7 @@
         
     </fieldset>
     <p>
-        <%: Html.ActionLink("Edit", "actualizarCurso_Tema_Video", new { /* id=Model.PrimaryKey */ })%> |
+        <%: Html.ActionLink("Edit", "actualizarCurso_Tema_Video", new { id = Model.IdCTV })%> |
         <a href="/Home/Index">Regresar al menu</a>
     </p>
 

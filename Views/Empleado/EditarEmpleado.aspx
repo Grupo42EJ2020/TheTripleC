@@ -7,6 +7,8 @@
     <title>EditarEmpleado</title>
     <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
     <link href="../../Content/ParaTxBx.css" rel="stylesheet" type="text/css" />
+   
+
 </head>
 <body>
     <% using (Html.BeginForm()) {%>

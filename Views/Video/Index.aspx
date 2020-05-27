@@ -8,14 +8,15 @@
     <link href="../../Content/styleTable.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<h1 style= color:#9B00B6 >Tabla de Videos</h1>
     <table>
         <tr>
-            <th></th>
+            <th><ul class="nav">Opciones</ul></th>
             <th>
-                IdVideo
+               <ul class="nav">IdVideo</ul> 
             </th>
             <th>
-                Nombre
+                <ul class="nav">Nombre</ul>
             </th>
            
     <% foreach (var item in Model) { %>
@@ -40,7 +41,7 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Agregar un video Nuevo", "AgregarVideo") %>
+        <%: Html.ActionLink("Agregar Video ", "AgregarVideo") %>
     </p>
     <p>
         <a href="../Home/Index">Regresar</a>

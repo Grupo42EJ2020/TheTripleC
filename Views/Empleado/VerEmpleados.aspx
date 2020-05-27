@@ -48,7 +48,9 @@
      
         <%:  Html.ActionLink("Agregar Empleado", "AgregarEmpleado") %>
     </p>
-    <a href="../Home/Index">Ir a la lista de tablas</a>
+    <p>
+        <a href="../Home/Index">Regresar</a>
+        </p>
 </body>
 </html>
 

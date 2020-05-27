@@ -8,15 +8,15 @@
     <link href="../../Content/styleTable.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <h1>TABLA DE TEMAS</h1>
+    <h1 style= color:#9B00B6 >Tabla de Temas</h1>
     <table>
         <tr>
-            <th></th>
+            <th><ul class="nav">Opciones</ul></th>
             <th>
-                IdTema
+                <ul class="nav">IdTema</ul>
             </th>
             <th>
-                Nombre
+               <ul class="nav">Nombre</ul> 
             </th>
         </tr>
 
@@ -41,11 +41,8 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Agregar un nuevo Tema", "AgregarTema") %>
+        <%: Html.ActionLink("Agregar Tema", "AgregarTema") %>
     </p>
-
-
-    <a href="../Curso_Tema/AgregarCurso_Tema">Añadir un Tema a Curso</a>
 
     <p>
         <a href="../Home/Index">Regresar</a>

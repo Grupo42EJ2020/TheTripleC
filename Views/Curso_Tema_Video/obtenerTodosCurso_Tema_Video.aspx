@@ -8,17 +8,18 @@
     <link href="../../Content/styleTable.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<h1 style= color:#9B00B6 >Tabla de Cursos Temas y Videos</h1>
     <table>
         <tr>
-            <th></th>
+            <th><ul class="nav">Opciones</ul></th>
             <th>
-                IdCTV
+                <ul class="nav">IdCTV</ul>
             </th>
             <th>
-                IdCT
+                <ul class="nav">IdCT</ul>
             </th>
             <th>
-                IdVideo
+                <ul class="nav">IdVideo</ul>
             </th>
         </tr>
 
@@ -46,10 +47,12 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Agregar un Curso", "insertarCurso_Tema_Video")%>
-        <a href="/Home/Index">Regresar al menu</a>
+        <%: Html.ActionLink("Agregar Curso con Tema y Video", "insertarCurso_Tema_Video")%>
+    
     </p>
-
+        <p>
+        <a href="../Home/Index">Regresar</a>
+        </p>
 </body>
 </html>
 

@@ -5,6 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>AgregarCurso_Tema</title>
+    <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/ParaTxBx.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <% using (Html.BeginForm()) {%>
@@ -40,9 +42,6 @@
         <%: Html.ActionLink("Regresar a la lista", "VerCurso_Tema") %>
     </div>
 
-    <a href="../Curso/watchCursos">Consultar Cursos Disponibles</a>
-
-    <a href="../Tema/Index">Consultar Temas Disponibles</a>
 </body>
 </html>
 

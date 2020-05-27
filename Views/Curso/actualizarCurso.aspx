@@ -33,13 +33,12 @@
             
             <p>
                 <input type="submit" value="Guardar" />
-            </p>
+            </p><% } %>
         </fieldset>
 
-    <% } %>
 
     <div>
-        <%: Html.ActionLink("Regrear a los Cursos", "watchCursos") %>
+        <%: Html.ActionLink("Regresar a Cursos", "watchCursos") %>
     </div>
 
 </body>
