@@ -39,7 +39,7 @@
 
     <p>
         <%: Html.ActionLink("Agregar Cursos", "InsertarCurso") %>
-        <%: Html.ActionLink("regresar al menu", "Index") %>
+        <a href="/Home/Index">Regresar al menu</a>
     </p>
     <a href="../Curso_Tema/AgregarCurso_Tema">Añadir un Tema a Curso</a>
 </body>

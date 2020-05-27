@@ -26,9 +26,9 @@
     
         <tr>
             <td>
-                <%: Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) %> |
-                <%: Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })%> |
-                <%: Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })%>
+                <%: Html.ActionLink("Editar", "actualizarCurso_Tema_Video", new { id = item.IdCTV })%> |
+                <%: Html.ActionLink("Detalles", "obtenerUnCurso_Tema_Video", new { id = item.IdCTV })%> |
+                <%: Html.ActionLink("Eliminar", "eliminarCurso_Tema_Video", new { id = item.IdCTV })%>
             </td>
             <td>
                 <%: item.IdCTV %>
@@ -46,7 +46,8 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Create New", "Create") %>
+        <%: Html.ActionLink("Agregar un Curso", "insertarCurso_Tema_Video")%>
+        <a href="/Home/Index">Regresar al menu</a>
     </p>
 
 </body>

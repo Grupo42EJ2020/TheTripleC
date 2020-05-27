@@ -49,7 +49,7 @@ namespace MVCLaboratorio.Controllers
         }
         
 //----------------------------------------------------------------------------------
-        //Borrar video
+        //Borrar Curso
         public ActionResult BorrarCurso(int id)
         { 
             RepositorioCursos repo = new RepositorioCursos();
