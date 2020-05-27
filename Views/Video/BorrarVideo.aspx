@@ -6,11 +6,12 @@
 <head runat="server">
     <title>BorrarVideo</title>
     <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/ParaTxBx.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <h3>Are you sure you want to delete this?</h3>
+    <h3>¿Esta seguro de eliminar los datos?</h3>
     <fieldset>
-        <legend>Datos del Video</legend>
+        <legend>Datos</legend>
         
         <div class="display-label">IdVideo</div>
         <div class="display-field"><%: Model.IdVideo %></div>
@@ -28,7 +29,7 @@
     <% using (Html.BeginForm()) { %>
         <p>
 		    <input type="submit" value="Eliminar" /> |
-		    <%: Html.ActionLink("Regresar a la Tabla", "Index") %>
+		    <%: Html.ActionLink("Regresar", "Index") %>
         </p>
     <% } %>
 

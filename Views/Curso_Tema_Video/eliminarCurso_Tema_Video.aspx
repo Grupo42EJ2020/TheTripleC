@@ -6,11 +6,12 @@
 <head runat="server">
     <title>eliminarCurso_Tema_Video</title>
         <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
+        <link href="../../Content/ParaTxBx.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <h3>Estas seguro de esto¿?</h3>
+    <h3>¿Esta seguro de eliminar los datos?</h3>
     <fieldset>
-        <legend>Fields</legend>
+        <legend>Datos</legend>
         
         
         
@@ -19,14 +20,15 @@
         
         <div class="display-label">IdVideo</div>
         <div class="display-field"><%: Model.IdVideo %></div>
+     
         
     </fieldset>
     <% using (Html.BeginForm()) { %>
         <p>
-		    <input type="submit" value="Eliminar" /> |
-		    <%: Html.ActionLink("Regresar a los cursos", "obtenerTodosCurso_Tema_Video")%>
-        <a href="/Home/Index">Regresar al menu</a>
+        <input type="submit" value="Eliminar" /> |
+		 <%: Html.ActionLink("Regresar", "obtenerTodosCurso_Tema_Video")%>
         </p>
+
     <% } %>
 
 </body>

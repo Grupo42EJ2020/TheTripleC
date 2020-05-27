@@ -6,10 +6,11 @@
 <head runat="server">
     <title>DetallesVideo</title>
     <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/ParaTxBx.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <fieldset>
-        <legend>Informacion del Video</legend>
+        <legend>Datos</legend>
         
         <div class="display-label">IdVideo</div>
         <div class="display-field"><%: Model.IdVideo %></div>
@@ -26,7 +27,7 @@
     </fieldset>
     <p>
         <%: Html.ActionLink("Editar", "EditarVideo", new {  id=Model.IdVideo }) %> |
-        <%: Html.ActionLink("Regresar a la Tabla", "Index") %>
+        <%: Html.ActionLink("Regresar", "Index") %>
     </p>
 
 </body>

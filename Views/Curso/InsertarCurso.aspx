@@ -43,7 +43,7 @@
     <% } %>
 
     <div>
-        <%: Html.ActionLink("Regresar a Cursos", "watchCursos") %>
+        <%: Html.ActionLink("Regresar", "watchCursos") %>
     </div>
 
 </body>

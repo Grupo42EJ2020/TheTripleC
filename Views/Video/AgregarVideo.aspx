@@ -13,7 +13,7 @@
         <%: Html.ValidationSummary(true) %>
 
         <fieldset>
-            <legend>Informacion del Video</legend>
+            <legend>Datos</legend>
 
             
             <div class="editor-label">
@@ -48,7 +48,7 @@
     <% } %>
 
     <div>
-        <%: Html.ActionLink("Regresar a la Tabla", "Index") %>
+        <%: Html.ActionLink("Regresar", "Index") %>
     </div>
 
 </body>

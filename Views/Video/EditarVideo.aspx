@@ -13,7 +13,7 @@
         <%: Html.ValidationSummary(true) %>
         
         <fieldset>
-            <legend>Informacion del Video</legend>
+            <legend>Datos</legend>
             
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Nombre) %>
@@ -40,14 +40,14 @@
             </div>
             
             <p>
-                <input type="submit" value="Actualizar" />
+                <input type="submit" value="Guardar" />
             </p>
         </fieldset>
 
     <% } %>
 
     <div>
-        <%: Html.ActionLink("Regresar a la Tabla", "Index") %>
+        <%: Html.ActionLink("Regresar", "Index") %>
     </div>
 
 </body>

@@ -13,7 +13,7 @@
         <%: Html.ValidationSummary(true) %>
 
         <fieldset>
-            <legend>Fields</legend>
+            <legend>Datos</legend>
             
             
             
@@ -34,15 +34,14 @@
             </div>
             
             <p>
-                <input type="submit" value="Crear" />
+                <input type="submit" value="Agregar" />
             </p>
         </fieldset>
 
     <% } %>
 
     <div>
-        <%: Html.ActionLink("Regresar a los cursos", "obtenerTodosCurso_Tema_Video")%>
-        <a href="/Home/Index">Regresar al menu</a>
+        <%: Html.ActionLink("Regresar", "obtenerTodosCurso_Tema_Video")%>
     </div>
 
 </body>

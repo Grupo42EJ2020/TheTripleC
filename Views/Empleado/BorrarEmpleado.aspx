@@ -6,11 +6,10 @@
 <head runat="server">
     <title>BorrarEmpleado</title>
     <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
-      
-
+    <link href="../../Content/ParaTxBx.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <h3>Esta seguro de eliminar los datos?</h3>
+    <h3>¿Esta seguro de eliminar los datos?</h3>
     <fieldset>
         <legend>Datos</legend>
         
@@ -22,12 +21,12 @@
         
         <div class="display-label">Direccion</div>
         <div class="display-field"><%: Model.Direccion %></div>
-        
+
     </fieldset>
     <% using (Html.BeginForm()) { %>
         <p>
-		    <input type="submit" value="Borrar" /> |
-		    <%: Html.ActionLink("Regresar", "VerEmpleados") %>
+         <input type="submit" value="Eliminar" />     |
+         <%: Html.ActionLink("Regresar", "VerEmpleados") %>
         </p>
     <% } %>
 

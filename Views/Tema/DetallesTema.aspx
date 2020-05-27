@@ -6,10 +6,11 @@
 <head runat="server">
     <title>DetallesTema</title>
     <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/ParaTxBx.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <fieldset>
-        <legend>Informacion del Tema</legend>
+        <legend>Datos</legend>
         
         <div class="display-label">IdTema</div>
         <div class="display-field"><%: Model.IdTema %></div>
@@ -20,7 +21,7 @@
     </fieldset>
     <p>
         <%: Html.ActionLink("Editar", "EditarTema", new {  id=Model.IdTema  }) %> |
-        <%: Html.ActionLink("Regresar a la Tabla", "Index") %>
+        <%: Html.ActionLink("Regresar", "Index") %>
     </p>
 
 </body>

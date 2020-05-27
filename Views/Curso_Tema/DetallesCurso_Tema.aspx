@@ -6,6 +6,7 @@
 <head runat="server">
     <title>DetallesCurso_Tema</title>
     <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/ParaTxBx.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <fieldset>
@@ -27,7 +28,7 @@
     </fieldset>
     <p>
         <%: Html.ActionLink("Editar", "EditarCurso_Tema", new { id = Model.IdCT })%> |
-        <%: Html.ActionLink("Regresar a la lista", "VerCurso_Tema") %>
+        <%: Html.ActionLink("Regresar", "VerCurso_Tema") %>
     </p>
 
 </body>

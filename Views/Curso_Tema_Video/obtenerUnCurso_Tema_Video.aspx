@@ -6,10 +6,11 @@
 <head runat="server">
     <title>obtenerUnCurso_Tema_Video</title>
         <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
+        <link href="../../Content/ParaTxBx.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <fieldset>
-        <legend>Fields</legend>
+        <legend>Datos</legend>
         
         <div class="display-label">IdCTV</div>
         <div class="display-field"><%: Model.IdCTV %></div>
@@ -22,8 +23,8 @@
         
     </fieldset>
     <p>
-        <%: Html.ActionLink("Edit", "actualizarCurso_Tema_Video", new { id = Model.IdCTV })%> |
-        <a href="/Home/Index">Regresar al menu</a>
+        <%: Html.ActionLink("Editar", "actualizarCurso_Tema_Video", new { id = Model.IdCTV })%> |
+        <%: Html.ActionLink("Regresar", "obtenerTodosCurso_Tema_Video") %>
     </p>
 
 </body>

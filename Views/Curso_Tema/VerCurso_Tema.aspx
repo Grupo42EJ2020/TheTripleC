@@ -24,7 +24,7 @@
             <td>
                 <%: Html.ActionLink("Editar", "EditarCurso_Tema", new { id = item.IdCT })%> |
                 <%: Html.ActionLink("Detalles", "DetallesCurso_Tema", new { id = item.IdCT })%> |
-                <%: Html.ActionLink("Borrar", "BorrarCurso_Tema", new { id = item.IdCT })%>
+                <%: Html.ActionLink("Eliminar", "BorrarCurso_Tema", new { id = item.IdCT })%>
             </td>
             <td>
                 <%: item.IdCT %>

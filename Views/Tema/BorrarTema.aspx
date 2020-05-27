@@ -6,11 +6,12 @@
 <head runat="server">
     <title>BorrarTema</title>
     <link href="../../Content/ParaLegends.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/ParaTxBx.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <h3>¿Estas seguro de eliminar esto?</h3>
+    <h3>¿Estas seguro de eliminar los datos?</h3>
     <fieldset>
-        <legend>Datos del Tema</legend>
+        <legend>Datos</legend>
         
         <div class="display-label">IdTema</div>
         <div class="display-field"><%: Model.IdTema %></div>
@@ -22,7 +23,7 @@
     <% using (Html.BeginForm()) { %>
         <p>
 		    <input type="submit" value="Eliminar" /> |
-		    <%: Html.ActionLink("Regresar a la Tabla", "Index") %>
+		    <%: Html.ActionLink("Regresar", "Index") %>
         </p>
     <% } %>
 
