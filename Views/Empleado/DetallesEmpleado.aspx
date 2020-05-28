@@ -10,7 +10,7 @@
 </head>
 <body>
     <fieldset>
-        <legend>Datos</legend>
+        <legend>Detalles del Empleado</legend>
         
         <div class="display-label">IdEmpleado</div>
         <div class="display-field"><%: Model.IdEmpleado %></div>

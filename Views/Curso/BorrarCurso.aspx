@@ -11,7 +11,7 @@
 <body>
     <h3>¿Esta seguro de eliminar los datos?</h3>
     <fieldset>
-        <legend>Datos</legend>
+        <legend>Datos del Curso a Eliminar</legend>
         
         <div class="display-label">IdCurso</div>
         <div class="display-field"><%: Model.IdCurso %></div>

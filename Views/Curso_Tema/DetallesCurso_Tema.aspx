@@ -10,7 +10,7 @@
 </head>
 <body>
     <fieldset>
-        <legend>Datos</legend>
+        <legend>Detalles del Tema</legend>
         
         <div class="display-label">IdCT</div>
         <div class="display-field"><%: Model.IdCT %></div>

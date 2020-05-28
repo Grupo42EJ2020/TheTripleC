@@ -10,7 +10,7 @@
 </head>
 <body>
     <fieldset>
-        <legend>Datos</legend>
+        <legend>Detalles de el Video dentro del Tema y Curso</legend>
         
         <div class="display-label">IdCTV</div>
         <div class="display-field"><%: Model.IdCTV %></div>

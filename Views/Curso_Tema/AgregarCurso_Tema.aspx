@@ -13,7 +13,7 @@
         <%: Html.ValidationSummary(true) %>
 
         <fieldset>
-            <legend>Datos</legend>
+            <legend>Agreagar un Tema dentro del Curso</legend>
             
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.IdCurso) %>

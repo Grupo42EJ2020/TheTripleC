@@ -13,7 +13,7 @@
         <%: Html.ValidationSummary(true) %>
 
         <fieldset>
-            <legend>Datos</legend>
+            <legend>Agregar Empleado</legend>
             
       
             <div class="editor-label">

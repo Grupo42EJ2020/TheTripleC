@@ -13,7 +13,7 @@
         <%: Html.ValidationSummary(true) %>
         
         <fieldset>
-            <legend>Datos</legend>
+            <legend>Actualizar Video del Tema deseado</legend>
             
             
             <div class="editor-label">

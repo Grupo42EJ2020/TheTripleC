@@ -11,7 +11,7 @@
 <body>
     <h3>¿Esta seguro de eliminar los datos?</h3>
     <fieldset>
-        <legend>Datos</legend>
+        <legend>Borrar un Tema dentro del Curso</legend>
         
         <div class="display-label">IdCT</div>
         <div class="display-field"><%: Model.IdCT %></div>

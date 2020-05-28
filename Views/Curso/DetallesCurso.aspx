@@ -10,7 +10,7 @@
 </head>
 <body>
     <fieldset>
-        <legend>Datos</legend>
+        <legend>Detalles del Curso</legend>
         
         <div class="display-label">IdCurso</div>
         <div class="display-field"><%: Model.IdCurso %></div>

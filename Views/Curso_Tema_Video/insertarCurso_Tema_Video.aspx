@@ -13,7 +13,7 @@
         <%: Html.ValidationSummary(true) %>
 
         <fieldset>
-            <legend>Datos</legend>
+            <legend>AAgregar Video</legend>
             
             
             

@@ -14,7 +14,7 @@
         <%: Html.ValidationSummary(true) %>
 
         <fieldset>
-            <legend>Datos</legend>
+            <legend>Agregar Curso</legend>
             
             
             

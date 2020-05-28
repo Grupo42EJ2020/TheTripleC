@@ -11,7 +11,7 @@
 <body>
     <h3>¿Esta seguro de eliminar los datos?</h3>
     <fieldset>
-        <legend>Datos</legend>
+        <legend>Borrar Video</legend>
         
         <div class="display-label">IdVideo</div>
         <div class="display-field"><%: Model.IdVideo %></div>

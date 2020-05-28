@@ -15,7 +15,7 @@
         <%: Html.ValidationSummary(true) %>
         
         <fieldset>
-            <legend>Datos</legend>
+            <legend>Actualizar Empleado</legend>
 
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Nombre) %>
