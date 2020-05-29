@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>Index</title>
-    <link href="../../Content/styleTable.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/DiseñoV2.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <h1 style= color:#9B00B6 >Tabla de Temas</h1>
