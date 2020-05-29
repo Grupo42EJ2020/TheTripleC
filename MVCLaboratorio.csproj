@@ -98,9 +98,12 @@
     <Compile Include="Utilerias\BaseHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Lovepik_com-605624336-Neon gradient city night background.jpg" />
     <Content Include="Content\ParaActionLink.css" />
     <Content Include="Content\ParaLegends.css" />
     <Content Include="Content\ParaTxBx.css" />
+    <Content Include="Content\Purple-Abstract-Black-Wallpaper-28416.jpg" />
+    <Content Include="Content\StyleConFotoCity.css" />
     <Content Include="Content\styleTable.css" />
     <Content Include="Global.asax" />
     <Content Include="Views\Curso_Tema\AgregarCurso_Tema.aspx" />

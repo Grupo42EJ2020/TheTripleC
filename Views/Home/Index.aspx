@@ -11,7 +11,7 @@ html, body {
     height: 110%; 
     color: white;
     text-align:center;
-    background: #1E1E1E;
+    
     font-family: Helvetica; 
 }       
 a:link, a:visited
@@ -38,11 +38,12 @@ a:link, a:visited
 }
     </style>
 </head>
-<body>
+<body background ="../../Content/Purple-Abstract-Black-Wallpaper-28416.jpg" ;>
     <h1>
     BIENVENIDOS A LA PAGINA DE NUESTRO PIA 👍
     </h1>
     <div class="center">
+    
     <h3>Menu de opciones</h3>
     
     <a href="/Empleado/VerEmpleados">Empleados</a>

@@ -6,9 +6,10 @@
 <head runat="server">
     <title>VerEmpleados</title>
     <link href="../../Content/styleTable.css" rel="stylesheet" type="text/css" />
-
 </head>
+
 <body>
+
     <h1 style= color:#9B00B6 >Tabla de Empleados</h1>
     <table>
         <tr>
